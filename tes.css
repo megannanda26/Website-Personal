@@ -1,0 +1,153 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8e9df;
+  color: #333;
+}
+
+header {
+  background-color: #1a73e8;
+  padding: 1rem 2rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.8rem;
+  color: white;
+  font-weight: bold;
+}
+
+.logo span {
+  color: #ffa366;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #ffd6b6;
+}
+
+
+.hero-content h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content .btn {
+  padding: 10px 20px;
+  background-color: #ff7b54;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.hero-content .btn:hover {
+  background-color: #ff571f;
+}
+
+.popular {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.popular h2 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.card-container{
+  display: flex;
+  justify-content: center; /* tengah secara horizontal */
+  align-items: center;     /* tengah secara vertikal */
+  flex-direction: column;  /* biar item tersusun ke bawah */
+  height: 500px;           /* tinggi penuh halaman */
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 200px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card h3 {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+footer {
+  background-color: #2d2d2d;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 3rem;
+  font-weight: bold;
+}
+
+.game-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.game {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 200px;
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s;
+}
+
+.game img {
+  width: 100px;
+  height: auto;
+}
+
+.game:hover {
+  transform: scale(1.05);
+}
+
